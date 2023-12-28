@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-olympics120 = pd.read_csv('../Data/athlete_events.csv', sep=',')
+olympics120 = pd.read_csv('athlete_events.csv', sep=',')
 olympics120.query('Season == \'Summer\'')
 
 """^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
